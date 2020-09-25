@@ -1,0 +1,18 @@
+Program 2 – Weekly Loan Calculator
+
+Develop a short term loan calculator program as a console application with the following specifications. Begin by designing your solution to this problem in pseudocode, which will be submitted along with the program.
+If A dollars are borrowed at r% interest compounded weekly to purchase something with weekly payments for n years, then the weekly payment is given by the formula:
+
+Then calculate the weekly payment as:
+weekly payment  = 	          i          
+1 – (1 + i)-52n	* A
+
+Write a console application that calculates the weekly payment after the user gives the amount of the loan, interest rate, and number of years.
+Examples and Testing
+In the section below you will be presented with at least one screenshot of a successful execution of a sample solution to the program, which should help demonstrate how your input/output on the program should work. In addition to the sample values used in the screenshot(s), additional testing values are given in a chart along with the output values that they should produce. You can expect your instructor to grade your assignment by using all of these listed input values at the very least, but keep in mind that additional values may also be used as well. In other words, you should thoroughly test your code before submitting!
+SAMPLE OUTPUT - Make sure your program can output data exactly as shown below.
+ 
+OTHER TESTING VALUES:
+Loan Amount	Interest Rate	Number of Years	Monthly Payment
+36000	3.4	6	$127.59
+23500	2.8	4	$119.46
