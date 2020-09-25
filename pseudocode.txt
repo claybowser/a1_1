@@ -1,0 +1,27 @@
+Author : Clay Bowser
+Date Last Modified : 2020/09/20
+Title : Assignment #1 part 2 : Weekly Loan Calculator
+
+If A dollars are borrowed at r% interest compounded weekly to purchase something with weekly payments for n years, then the weekly payment is given by the formula: i = r/5200 then calculate the weekly payment as: weekly payment = (i/(1-(1+i)^-52*n))*A
+
+Variables:
+    dollars
+    r = rate percentage
+    interest = rate / 5200 //658
+    i = interest rate
+    n = number of years
+    weekly payment = (i/(1-(1+i)**(-52*n)))*A
+
+Prompt User for amount in Dollars
+    Validate User Input
+Prompt User for rate in Percentage
+    Validate User Input
+Prompt User for Number of years
+    Validate User Input
+Calculate interest rate
+Calculate weekly payment
+
+
+
+Display weekly payment to User
+"Your weekly loan payment is: $" + weekly payment
